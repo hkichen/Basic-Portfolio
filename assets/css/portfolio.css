@@ -1,5 +1,5 @@
 #images {
-    height: ;
+    min-height: 74%;
     background: #ffffff;
     border-style: solid;
     border-color: #dddddd;
@@ -11,5 +11,18 @@
 }
 
 #images > img {
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    display: inline;
+}
+
+#text-block {
+    position: relative;
+    bottom: 1;
+    left: 0;
+    width: 200;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font: 'arial';
+    font-size: 18;
 }
