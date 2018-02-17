@@ -12,17 +12,18 @@
 
 #images > img {
     padding: 15px 15px 15px 15px;
+    position: relative;
     display: inline;
 }
-
 #text-block {
-    position: relative;
-    bottom: 1;
-    left: 0;
-    width: 200;
+    position: absolute;
+    text-align: center;
+    bottom: 400;
+    left: 17;
+    width: 230;
     padding: 10px;
     background: #4aaaa5;
     color: #ffffff;
-    font: 'arial';
     font-size: 18;
+    z-index: 10;
 }
